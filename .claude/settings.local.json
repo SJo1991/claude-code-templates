@@ -41,7 +41,14 @@
       "Bash(npm test -- StructuralValidator.test.js)",
       "Bash(gh pr create:*)",
       "Bash(mv:*)",
-      "Read(//private/tmp/anthropic-skills/**)"
+      "Read(//private/tmp/anthropic-skills/**)",
+      "Bash(for dir in */)",
+      "Bash(do echo \"=== $dir ===\")",
+      "Bash(done)",
+      "Bash(for dir in cli-tool/components/agents/*/)",
+      "Bash(sort:*)",
+      "Bash(python3:*)",
+      "Bash(awk '{print $9, \"\"\"\"(\"\"\"\" $5 \"\"\"\")\"\"\"\"}')"
     ],
     "deny": []
   },
